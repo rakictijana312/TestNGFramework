@@ -1,0 +1,82 @@
+Maven project
+
+2 folders under src:
+main- is use to write the main code for application
+test- is used to write the code for testing the application
+
+inside test folder:
+java- our java code which we write to test our applicatin
+resources- we keep properties, test data, etc
+config- we store configuration file
+utils- we keep utilities classes we need in the project
+
+Framework- it allow  you write, reuse and mantain your code with minimal efforts.
+
+Maven- it is a build tool
+
+pom.xml
+
+POM- page object model
+
+User story- Admin shoul be able to login to hrms application with valid credetntials
+
+Recap -
+
+webdrivermanager - manages all the browsers for execution
+constants class -
+page factory -
+
+US - 12345 Admin user should be able to add employee to the hrms application
+
+US - 22345 - System should display an error when invalid login is done
+1. when user enters valid/invalid username and invalid/valid password then display "Invalid credentials"
+2. when user lives password field empty then display "Password cannot be empty"
+3. when user lives username field empty then display "username cannot be empty"
+
+
+
+to read excel file from java -
+
+workbook to use for different versions
+.xlsx - XSSF
+.xls - XSSH
+
+how to get the data from excel file
+file input stream(filepath)
+Object of workbook
+get sheet(name or index)
+get no. of rows get
+get number of cell
+
+create 2 nested for loop
+
+outer loop - control rows
+inner loop - control cols
+
+getrow(index).getcell(index).toString();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

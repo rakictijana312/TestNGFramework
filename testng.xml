@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/tijan/IdeaProjects/TestNgFramework">
+        <classes>
+            <class name="testcases.AddEmployeeTest">
+                <methods>
+                    <include name="addEmployee"/>
+                    <include name="addMultipleEmployees"/>
+                </methods>
+            </class>
+            <class name="testcases.LoginTest">
+                <methods>
+                    <include name="adminLogin"/>
+                    <include name="invalidLoginErrorMessageValidation"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
